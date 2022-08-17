@@ -1,0 +1,96 @@
+header {
+	background: url("bg.jpg");
+	padding: 25px 0;
+}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	padding-left: 5px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+main {
+	background: url("bg-branco.jpg");
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px 10px 20px 20px;
+}
+
+.produtos li:hover {
+	color: #C78C19;
+	text-decoration: underline;
+	border-color: #C79C19;
+}
+
+.produtos li:active {
+	border-color: green;
+	color: green;
+}
+
+.produtos li:hover h2 {
+	font-size: 35px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-preço {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.produto-descrição {
+	font-size: 18px;
+}
+
+#rodape {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+}
